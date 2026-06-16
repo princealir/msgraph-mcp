@@ -1,0 +1,46 @@
+{
+  "name": "msgraph-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Microsoft Graph API — Mail, Calendar, Teams, OneDrive",
+  "type": "module",
+  "bin": {
+    "msgraph-mcp": "src/index.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "microsoft",
+    "microsoft-365",
+    "graph",
+    "outlook",
+    "teams",
+    "onedrive",
+    "calendar",
+    "email",
+    "claude",
+    "cursor",
+    "ai",
+    "llm"
+  ],
+  "author": "Prince Ali Rehman <aliworkarea@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/msal-node": "^2.16.2",
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princealir/msgraph-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/princealir/msgraph-mcp/issues"
+  },
+  "homepage": "https://github.com/princealir/msgraph-mcp#readme"
+}
