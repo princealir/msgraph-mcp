@@ -1,5 +1,9 @@
 # msgraph-mcp
 
+[![npm version](https://img.shields.io/npm/v/msgraph-mcp.svg)](https://www.npmjs.com/package/msgraph-mcp)
+[![npm downloads](https://img.shields.io/npm/dm/msgraph-mcp.svg)](https://www.npmjs.com/package/msgraph-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 MCP server for Microsoft 365 — Mail, Calendar, Teams, OneDrive via Microsoft Graph API.
 
 No Copilot license required. Uses device code login with your own Azure app. Only accesses **your own** data.
